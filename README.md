@@ -23,6 +23,12 @@ show_message(Get(nested_array, 2, 0)); //9
 show_message(Get(nested_array, 2, 1)); //16
 ```
 
+## Installation
+
+- Download `UniversalGetSet.gmez` from the [Releases page](https://github.com/dicksonlaw583/UniversalGetSet-1.4/releases).
+- In GMS 1.4, right-click on Extensions, then select Import Extension.
+- Select `UniversalGetSet.gmez` and confirm.
+
 ## Functions
 
 - `Get(array_or_ds, ...)`: Search the array or data structure recursively using the indexes in order, then return the value found there.
